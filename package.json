@@ -6,8 +6,8 @@
   "scripts": {
     "cypress-open": "npx cypress open",
     "cypress-run": "npx cypress run",
-    "signUp": "npx cypress run --env tags='@signUp' --config-file sandbox-config.ts --browser chrome",
-    "login": "npx cypress run --env tags='@login' --config-file staging-config.ts --browser chrome"
+    "signUp": "npx cypress run --env tags='@signUp' --browser chrome",
+    "login": "npx cypress run --env tags='@login' --browser chrome"
   },
   "repository": {
     "type": "git",
