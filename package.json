@@ -1,0 +1,44 @@
+{
+  "name": "pneuma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blesnick/Pneuma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blesnick/Pneuma/issues"
+  },
+  "cypress-cucumber-preprocessor": {
+    "filterSpecs": true,
+    "omitFiltered": true,
+    "stepDefinitions": "cypress/support/step_definitions/**/*.{js,ts}"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^11.5.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.4",
+    "cypress": "^12.1.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-localstorage-commands": "^2.2.1",
+    "cypress-multi-reporters": "^1.6.1",
+    "cypress-real-events": "^1.7.1",
+    "cypress-slack-reporter": "^1.5.0",
+    "cypress-xpath": "^2.0.1",
+    "eslint": "^8.22.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^5.0.8"
+  },
+  "homepage": "https://github.com/Blesnick/Pneuma#readme"
+}
