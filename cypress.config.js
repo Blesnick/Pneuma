@@ -37,8 +37,7 @@ module.exports = defineConfig({
     // We've imported your old cypress plugins here.
     // You may want to clean this up later by importing these.
     setupNodeEvents,
-    // baseUrl:
-    //   "https://stage",
+    // baseUrl: "https://www.chess.com",
     specPattern: "**/*.feature",
   },
 });

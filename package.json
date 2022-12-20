@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open",
+    "cypress-open": "npx cypress open",
+    "cypress-run": "npx cypress run",
     "signUp": "npx cypress run --env tags='@signUp' --config-file sandbox-config.ts --browser chrome",
     "login": "npx cypress run --env tags='@login' --config-file staging-config.ts --browser chrome"
   },

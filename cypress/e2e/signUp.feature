@@ -7,7 +7,7 @@ Feature: Signup Page
 
     @regression  
     Scenario: Create a New User 
-       When user fills registration email textbox
+       When user fills registration form
     #    And user clicks "create an account button" 
     #    And user enters "First Name" and "Last Name"
     #    And user enters "Password"
