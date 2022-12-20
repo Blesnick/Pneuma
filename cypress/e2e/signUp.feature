@@ -1,3 +1,4 @@
+@signUp
 Feature: Signup Page
 
    User's Registration on Pneuma  
